@@ -855,7 +855,7 @@
 .gt-container .gt-avatar img {
   width: 100%;
   height: auto;
-  border-radius: 3px;
+  border-radius: 50%;
 }
 
 .gt-container .gt-avatar-github {
@@ -1190,6 +1190,9 @@
 
 .gt-container .gt-comments-null {
   text-align: center;
+  background-color: $comments-list-item-meta-bg-color;
+  padding: 0.625em 0.625em;
+  border-radius: 5px;
 }
 
 .gt-container .gt-comments-controls {
